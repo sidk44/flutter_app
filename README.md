@@ -1,15 +1,29 @@
-# demo
+# FLUTTER SOCIAL MEDIA APP
 
-A new Flutter project.
 
-## Getting Started
+This is a **minimal social media app** made using Flutter & Firebase and tested on **iOS** device.
 
-This project is a starting point for a Flutter application.
+It has the following features:
+- **Authentication:** Sign up and log in using email/password or Google sign-in.
+- **Universal Chat Room:** chat room to communicate with other users.
+- **Follow/Unfollow:** Follow or unfollow other user accounts.
+- **Profile Management:** Change your username or bio in your profile settings.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ **Run the app:**
+
+    - For  iOS (requires a Mac with Xcode) and Android:
+
+        flutter run
+- **Install dependencies:**
+    ```
+    flutter pub get
+
+## Built With
+
+- [Flutter](https://flutter.dev/) - The UI toolkit for building natively compiled applications.
+- [Firebase](https://firebase.google.com/) - The backend platform for authentication, database, and more.
+
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
